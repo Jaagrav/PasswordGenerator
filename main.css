@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Poppins&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+	color: #FF8943;
+	font-family: "Raleway", sans-serif;
+}
+
+body{
+	background: #181920;
+}
+
+.container{
+	border: 1px solid #FF8943;
+	height: fit-content;
+	width : fit-content;
+	padding: 10px;
+	border-radius: 7px;
+	position: absolute;
+	margin: auto;
+	top: 0;right: 0;left: 0;bottom: 0;
+}
+
+*::selection{
+	background: #FFB387;
+}
+
+.generate{
+	background: #FF8943;
+	color: white;
+	padding: 10px;
+	border: 0;
+	outline: 0;
+	border-radius: 3px;
+	transition: .3s;
+}
+
+.generate:hover{
+	background: #CC6C33;
+	cursor: pointer;
+}
+
+.generate:active{
+	transform: scale(0.9);
+}
+
+.output{
+	font-family:'Poppins', sans-serif;
+	font-size: 50px;
+	text-align: center;
+	margin: 20px 0;
+}
+input{
+	cursor: pointer;
+	outline: 0;
+}
+input:checked{
+	appearance: none;
+	background: #FF8943;
+	height: 13px;
+	width: 13px;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Password Generator</title>
+	<link rel="icon" href="logo.png">	
+	<link rel="stylesheet" href="main.css">
+</head>
+<body>
+	<div class="container">
+		<div style="font-size: 30px;">Password Generator</div>
+		<div class="output"></div>
+		<input type="checkbox" class="LC">
+	    <label> Lower Case Alphabets</label><br>
+	    <input type="checkbox" class="UC">
+	    <label> Upper Case Alphabets</label><br>
+	    <input type="checkbox" class="SC">
+	    <label> Special Characters</label><br><input type="checkbox" class="NC">
+	    <label> Numeric Characters</label><br><input type="range" id="length" min="5" max="20" value="9"><br>
+	    <label id="lengthDisplay"> Length Of Password: 9</label><br><br>
+		<button class="generate">GENERATE</button>
+	</div>
+	<script src="main.js"></script>
+</body>
+</html>
